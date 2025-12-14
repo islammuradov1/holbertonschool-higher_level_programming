@@ -1,12 +1,17 @@
 #!/usr/bin/python3
-"""we define json string to python object converter"""
+
+'''
+Module writes a function that
+returns opposite of JSON representation
+'''
 
 
 import json
 
 
 def from_json_string(my_str):
-
-    """in this function convertion is done by loads method"""
+    '''
+    JSON function
+    '''
 
     return json.loads(my_str)

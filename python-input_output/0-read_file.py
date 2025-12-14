@@ -1,10 +1,14 @@
 #!/usr/bin/python3
-"""the module contains data about reading file"""
+'''
+Module that reads text file
+'''
 
 
 def read_file(filename=""):
-    """function which reads a file"""
+    '''
+    Function that reads file
+    '''
 
-    with open(filename, encoding="utf-8") as f:
-        reading = f.read()
-        print(reading, end='')
+    with open(filename, encoding='UTF8') as f:
+        for line in f:
+            print(line, end="")

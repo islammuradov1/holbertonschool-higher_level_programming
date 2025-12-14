@@ -1,8 +1,13 @@
 #!/usr/bin/python3
-"""we define file writing function in this module"""
+'''
+Module that reads text file
+'''
 
 
-def write_file(filename='', text=''):
-    """we write to file using write method"""
-    with open(filename, 'w') as f:
+def write_file(filename="", text=""):
+    '''
+    Function that reads file
+    '''
+
+    with open(filename, 'w', encoding='UTF8') as f:
         return f.write(text)
