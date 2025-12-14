@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-""" a class """
+"""""Just we are gonna write emtyu class."""
 
 
 class BaseGeometry:
-    """ geoclass """
+    """""Class for BaseGeometry"""
     pass

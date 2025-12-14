@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"claas is fuck"
+
+"Modul look up fucntion"
 
 
 def lookup(obj):
-    "method of class"
-
-    return dir(obj)
+    "we used dir fucntion which return list of attributes"
+    return list(dir(obj))

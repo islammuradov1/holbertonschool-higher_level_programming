@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-""" a function """
+"""""That modul chech inheritence or not"""
 
 
 def inherits_from(obj, a_class):
-    """ issubclass """
-    return issubclass(type(obj), a_class) and not type(obj) is a_class
+    """used isinstance and is not"""
+    return isinstance(obj, a_class) and type(obj) is not a_class
